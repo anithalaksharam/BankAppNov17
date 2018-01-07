@@ -6,26 +6,51 @@ using System.Threading.Tasks;
 
 namespace BankApp
 {
+
+    enum TypeOfAccount
+    {
+        Checking,
+        Savings,
+        CD,
+        Loan
+    }
+
     /// <summary>
     /// This is about a bank account
     /// for chase
     /// </summary>
     class Account
     {
+        #region statics
+        private static int lastAccountNumber = 0;
+        #endregion
+        
         #region Properties
+        /// <summary>
+        /// 
+        /// </summary>
         public int AccountNumber { get; private set; }
         public string EmailAddress { get; set; }
         public string AccountName { get; set; }
-        public string AccountType { get; set; }
+        public TypeOfAccount AccountType { get; set; }
         public decimal Balance { get; private set; }
         #endregion
 
-        #region Methods
-        /// <summary>
-        /// Deposti money into yiur account
-        /// </summary>
-        /// <param name="amount"></param>
-        public void Deposit(decimal amount)
+        #region Constructor
+        public Account()
+        {
+         AccountNumber = ++lastAccountNumber;
+        }
+
+
+    #endregion
+
+    #region Methods
+    /// <summary>
+    /// Deposit money into your account
+    /// </summary>
+    /// <param name="amount">Amount to be deposited</param>
+    public void Deposit(decimal amount)
         {
             Balance += amount;
         }
