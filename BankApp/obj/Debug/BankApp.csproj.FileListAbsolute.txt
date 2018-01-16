@@ -13,3 +13,4 @@ C:\GitHub\BankAppNov17\BankApp\obj\Debug\BankApp.Migrations.InitialCreate.resour
 C:\GitHub\BankAppNov17\BankApp\obj\Debug\BankApp.csproj.GenerateResource.Cache
 C:\GitHub\BankAppNov17\BankApp\obj\Debug\BankApp.Migrations.ModelChanges.resources
 C:\GitHub\BankAppNov17\BankApp\obj\Debug\BankApp.Migrations.Transactions.resources
+C:\GitHub\BankAppNov17\BankApp\obj\Debug\BankApp.Migrations.ModelCleanup.resources

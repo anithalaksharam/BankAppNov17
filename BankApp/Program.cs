@@ -41,9 +41,24 @@ namespace BankApp
                             Console.WriteLine($"{i + 1}.{typeOfAccounts[i]}");
                         }
                         Console.Write("Type Of Account:");
-                        var accountType = Convert.ToInt32(Console.ReadLine());
-                        var account = Bank.CreateAccount(emailAddress, accountName, (TypeOfAccount)(accountType - 1));
-                        Console.WriteLine($"AN:{account.AccountNumber},Balance: {account.Balance}, TA:{account.AccountType}");
+                        try
+                        {
+                            var accountType = Convert.ToInt32(Console.ReadLine());
+                            var account = Bank.CreateAccount(emailAddress, accountName, (TypeOfAccount)(accountType - 1));
+                            Console.WriteLine($"AN:{account.AccountNumber},Balance: {account.Balance}, TA:{account.AccountType}");
+                        }
+                        catch(FormatException)
+                        {
+                            Console.WriteLine("Account Type is invalid");
+                        }
+                        catch(ArgumentNullException ax)
+                        {
+                            Console.WriteLine($"Error-{ax.ParamName},{ax.Message}");
+                        }
+                        catch(Exception ex)
+                        {
+                            Console.WriteLine($"Something went wrong: {ex.Message}");
+                        }
                         break;
                     case "2":
                         PrintAllAccounts();
