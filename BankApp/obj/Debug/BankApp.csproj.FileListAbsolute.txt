@@ -1,8 +1,5 @@
-C:\GitHub\BankAppNov17\BankApp\bin\Debug\BankApp.exe.config
-C:\GitHub\BankAppNov17\BankApp\bin\Debug\BankApp.exe
 C:\GitHub\BankAppNov17\BankApp\bin\Debug\BankApp.pdb
 C:\GitHub\BankAppNov17\BankApp\obj\Debug\BankApp.csproj.CoreCompileInputs.cache
-C:\GitHub\BankAppNov17\BankApp\obj\Debug\BankApp.exe
 C:\GitHub\BankAppNov17\BankApp\obj\Debug\BankApp.pdb
 C:\GitHub\BankAppNov17\BankApp\obj\Debug\BankApp.csprojResolveAssemblyReference.cache
 C:\GitHub\BankAppNov17\BankApp\bin\Debug\EntityFramework.dll
@@ -14,3 +11,6 @@ C:\GitHub\BankAppNov17\BankApp\obj\Debug\BankApp.csproj.GenerateResource.Cache
 C:\GitHub\BankAppNov17\BankApp\obj\Debug\BankApp.Migrations.ModelChanges.resources
 C:\GitHub\BankAppNov17\BankApp\obj\Debug\BankApp.Migrations.Transactions.resources
 C:\GitHub\BankAppNov17\BankApp\obj\Debug\BankApp.Migrations.ModelCleanup.resources
+C:\GitHub\BankAppNov17\BankApp\bin\Debug\BankApp.dll.config
+C:\GitHub\BankAppNov17\BankApp\bin\Debug\BankApp.dll
+C:\GitHub\BankAppNov17\BankApp\obj\Debug\BankApp.dll
