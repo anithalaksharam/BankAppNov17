@@ -3,6 +3,7 @@ C:\GitHub\BankAppNov17\BankUI\bin\BankUI.dll.config
 C:\GitHub\BankAppNov17\BankUI\bin\BankUI.dll
 C:\GitHub\BankAppNov17\BankUI\bin\BankUI.pdb
 C:\GitHub\BankAppNov17\BankUI\bin\Antlr3.Runtime.dll
+C:\GitHub\BankAppNov17\BankUI\bin\BankApp.dll
 C:\GitHub\BankAppNov17\BankUI\bin\EntityFramework.dll
 C:\GitHub\BankAppNov17\BankUI\bin\EntityFramework.SqlServer.dll
 C:\GitHub\BankAppNov17\BankUI\bin\Microsoft.AI.Agent.Intercept.dll
@@ -36,6 +37,8 @@ C:\GitHub\BankAppNov17\BankUI\bin\System.Web.WebPages.Deployment.dll
 C:\GitHub\BankAppNov17\BankUI\bin\System.Web.WebPages.dll
 C:\GitHub\BankAppNov17\BankUI\bin\System.Web.WebPages.Razor.dll
 C:\GitHub\BankAppNov17\BankUI\bin\WebGrease.dll
+C:\GitHub\BankAppNov17\BankUI\bin\BankApp.pdb
+C:\GitHub\BankAppNov17\BankUI\bin\BankApp.dll.config
 C:\GitHub\BankAppNov17\BankUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\GitHub\BankAppNov17\BankUI\bin\System.Web.Helpers.xml
 C:\GitHub\BankAppNov17\BankUI\bin\System.Web.Mvc.xml
@@ -69,6 +72,3 @@ C:\GitHub\BankAppNov17\BankUI\obj\Debug\BankUI.csprojResolveAssemblyReference.ca
 C:\GitHub\BankAppNov17\BankUI\obj\Debug\BankUI.csproj.CoreCompileInputs.cache
 C:\GitHub\BankAppNov17\BankUI\obj\Debug\BankUI.dll
 C:\GitHub\BankAppNov17\BankUI\obj\Debug\BankUI.pdb
-C:\GitHub\BankAppNov17\BankUI\bin\BankApp.dll
-C:\GitHub\BankAppNov17\BankUI\bin\BankApp.pdb
-C:\GitHub\BankAppNov17\BankUI\bin\BankApp.dll.config

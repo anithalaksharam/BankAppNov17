@@ -27,14 +27,14 @@ namespace BankApp
         /// 
         /// </summary>
         [Key]
-        public int AccountNumber { get; private set; }
+        public int AccountNumber { get; set; }
         [StringLength(100,ErrorMessage ="Email address should be of 50 characters in length")]
         [Required]
         public string EmailAddress { get; set; }
         public string AccountName { get; set; }
         [Required]
         public TypeOfAccount AccountType { get; set; }
-        public decimal Balance { get; private set; }
+        public decimal Balance { get; set; }
         #endregion
 
         #region Constructor

@@ -59,6 +59,21 @@ namespace BankUI.Controllers
             return View(account);
         }
 
+        // GET: Accounts/Deposit/5
+        public ActionResult Deposit(int? id)
+        {
+            if (id == null)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+            Account account = Bank.FindAccount(id.Value);
+            if (account == null)
+            {
+                return HttpNotFound();
+            }
+            return View(account);
+        }
+
         // GET: Accounts/Edit/5
         public ActionResult Edit(int? id)
         {
@@ -90,7 +105,6 @@ namespace BankUI.Controllers
         }
 
         
-
         protected override void Dispose(bool disposing)
         {
             if (disposing)

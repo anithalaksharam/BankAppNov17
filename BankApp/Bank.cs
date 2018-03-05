@@ -42,7 +42,9 @@ namespace BankApp
                 throw new ArgumentNullException("account", "Invalid Account!");
 
             Account oldAccount = FindAccount(account.AccountNumber);
-            db.Entry(oldAccount).CurrentValues.SetValues(account);
+            oldAccount.EmailAddress = account.EmailAddress;
+            oldAccount.AccountName = account.AccountName;
+            oldAccount.AccountType = account.AccountType;
             db.SaveChanges();
 
             return account;
