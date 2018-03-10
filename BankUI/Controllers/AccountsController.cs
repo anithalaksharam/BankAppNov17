@@ -74,6 +74,20 @@ namespace BankUI.Controllers
             return View(account);
         }
 
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Deposit(FormCollection controls)
+        {
+            var accountNumber = 
+                Convert.ToInt32(controls["AccountNumber"]);
+
+            var amount = Convert.ToDecimal(controls["Amount"]);
+            Bank.Deposit(accountNumber, amount);
+
+            return RedirectToAction("Index");
+        }
+
+
         // GET: Accounts/Edit/5
         public ActionResult Edit(int? id)
         {
