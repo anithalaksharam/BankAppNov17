@@ -92,7 +92,7 @@ namespace BankApp
 
         private static void PrintAllAccounts()
         {
-            Console.Write("Email Address: ");
+            Console.Write("Provide Email Address: ");
             var emailAddress = Console.ReadLine();
             var accounts = Bank.GetAllAccounts(emailAddress);
             foreach (var acnt in accounts)
